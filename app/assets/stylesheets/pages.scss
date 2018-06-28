@@ -1,3 +1,35 @@
-// Place all the styles related to the pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background: image-url("/pattern-desafio.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main {
+  margin-top: 5%;
+}
+
+.title {
+  color: #555;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ethanol {
+  color: lime;
+}
+
+.gasoline {
+  color: crimson;
+}
+
+.btn {
+  background-color: #448aff;
+  height: 45px;
+}

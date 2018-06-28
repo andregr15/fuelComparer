@@ -1,2 +1,52 @@
-<h1>Pages#index</h1>
-<p>Find me in app/views/pages/index.html.erb</p>
+<div class="row">
+  <div class="col s4 offset-s4 m4 offset-m4">
+    <div class="row center-align">
+      <h6 class="title">Devo abastecer com</h6>
+      <span class="subtitle">
+        <span class="ethanol">ÁLCOOL</span> 
+        ou 
+        <span class="gasoline">GASOLINA</span>
+        ?
+      </span>
+      
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <div class="card-content">
+          <div class="row">
+            <div class="col s4">
+              <img src="/icon-alcool.png" alt="icon-alcool" class="responsive-img">
+            </div>
+            <div class="col s8 input-field">
+              <input type="number" id="ethanol" min="0.001">
+              <label for="ethanol">Preço do Álcool</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s4">
+              <img src="/icon-gasolina.png" alt="icon-gasolina" class="responsive-img">
+            </div>
+            <div class="col s8 input-field">
+              <input type="number" id="gasoline" min="0.001">
+              <label for="gasoline">Preço da Gasolina</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12">
+              <button type="button" class="btn waves-effect waves-light col s12" id="btn-calculate">Calcular</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row col s8 offset-s4">
+        <img src="/logo-1.png" alt="logo" class="responsive-img">
+      </div>
+    </div>
+
+  </div>
+</div>
