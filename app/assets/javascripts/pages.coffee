@@ -1,5 +1,13 @@
 $(document).on 'turbolinks:load', ->
   $('#btn-compare').click ->
+    if $('#gasoline').val() == '0'
+      $('#gasoline').val(0.001)
+
+    if $('#ethanol').val() == '0'
+      $('#ethanol').val(0.001)
+    
+    M.updateTextFields();
+    
     $.ajax '/compare',
       type: 'get'
       dataType: 'json'
