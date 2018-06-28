@@ -1,4 +1,7 @@
+require 'rails_helper'
+
 RSpec.describe 'compare_service' do
+
   it 'should compare and return gasoline' do
     gasoline = 4.99
     ethanol = 4.00
@@ -12,4 +15,5 @@ RSpec.describe 'compare_service' do
     res = CompareService.new(gasoline, ethanol).perform
     expect(res).to eql('Álcool')
   end
+
 end
