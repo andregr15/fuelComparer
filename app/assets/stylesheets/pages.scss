@@ -22,14 +22,21 @@ main {
 }
 
 .ethanol {
+  font-size: 20px;
   color: lime;
 }
 
 .gasoline {
+  font-size: 20px;
   color: crimson;
 }
 
 .btn {
   background-color: #448aff;
   height: 45px;
+}
+
+.result {
+  font-size: 16px;
+  padding-left: 8%;
 }
