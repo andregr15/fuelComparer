@@ -25,7 +25,7 @@ $(document).on 'turbolinks:load', ->
 insert_answer = (value) ->
   $('.card-content').append(
     '<div class="row" id="resultado">' +
-      '<hr/><div class="result">É mais econômico</div>' +
+      '<br/><hr/><br/><div class="result">É mais econômico</div>' +
       '<div class="result">abastecer com <span class="' + (if value == 'Gasolina' then 'gasoline' else 'ethanol') + '">'+value+'</span></div>' +
     '</div>'
   )
